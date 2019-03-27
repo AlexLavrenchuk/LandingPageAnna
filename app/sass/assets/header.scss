@@ -1,15 +1,20 @@
-h1 {
-    color: red;
 
-}
-body {
-    background: #aaa;
-}
-.your-class {
-    width: 500px;
-    margin: auto;
+header {
+    background: $colorBg;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
     text-align: center;
+    padding: 40px;
 }
-img {
-    width: 100%;
+.scroll {
+    animation: show 1s;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    display: none;
+    background: $gradient;
+    background-clip: text;
+    color: transparent;
 }

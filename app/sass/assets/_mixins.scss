@@ -1,0 +1,7 @@
+@mixin border-gr {
+    border: 10px solid transparent;
+    border: {
+    image: $gradient;
+    image-slice: 1;
+    }
+}

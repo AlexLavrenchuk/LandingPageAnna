@@ -1,10 +1,12 @@
-// slick slider
-@import 'slick/slick';
-@import 'slick/slick-theme';
-
-
 @import 'assets/vars';
 @import 'assets/mixins';
 @import 'assets/reset';
 
+// slick slider
+@import 'slick/slick';
+@import 'slick/slick-theme';
+// castom style
+@import 'assets/slider';
+
+// components
 @import 'assets/header';

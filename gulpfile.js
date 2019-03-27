@@ -25,7 +25,7 @@ gulp.task('sass', function() {
 	.pipe(sass().on('error', sass.logError))
 	.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8'], { cascade: true }))
 	.pipe(gulp.dest('app/css/'))
-	.pipe(browserSync.reload({stream: true}))
+	.pipe(browserSync.reload({stream: true}));
 });
 
 // concat js
@@ -65,7 +65,7 @@ gulp.task('sprite', function () {
 gulp.task('css-min', function() {
     return gulp.src('app/css/all.css')
     .pipe(cssnano())
-    .pipe(gulp.dest('app/css/'))
+    .pipe(gulp.dest('app/css/'));
 });
 
 

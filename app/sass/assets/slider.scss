@@ -1,0 +1,23 @@
+.slider {
+    // max-width: 100%;
+    text-align: center;
+    margin: auto;
+    &-item {
+        padding: 30px;
+        p {
+            padding: 10px;
+            @include border-gr;
+        }
+    }   
+    &-image {
+        padding: 20px;
+        margin-bottom: 10px;
+        background: rgba($black, $alpha);
+    }
+    img {
+        max-width: 100%;
+        height: 200px;
+        display: inline;
+        @include border-gr;
+    }
+}
