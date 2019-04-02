@@ -8,6 +8,16 @@
         box-shadow: 0 0 10px 10px rgba($black, $alpha);
     }
 }
+@keyframes opacityShow{
+    0%{
+        opacity: 0.3;
+    }
+    
+    
+    100% {
+        opacity: 1;
+    }
+}
 
 
 * {
@@ -43,4 +53,7 @@ a {
 }
 .wrapper {
     background: $colorBg;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
 }
