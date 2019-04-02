@@ -4,11 +4,13 @@
     &-item {
         padding: 30px;
         p {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em #ff5d00;
             position: absolute;
-            top: 75%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 500px;            
+            bottom: 15%;
+            left: 35%;
+            transform: translate(-50%);
+            max-width: 300px;            
             padding: 10px;
             @include border-gr;
             background-color: rgba($black, $alpha);
@@ -17,12 +19,19 @@
     &-image {
         padding: 20px;
         margin-bottom: 10px;
-        background: rgba(#ffe600, $alpha);
+        background: linear-gradient(left, #ff5d00 0%, #000000 100%);;
+        &:hover {
+            img {
+                transform: scale(1.05);
+                opacity: .8;
+            }
+        }
     }
     img {
         max-width: 100%;
-        height: 500px;
+        height: 600px;
         display: inline;
+        transition: .5s;
         @include border-gr;
     }
 }

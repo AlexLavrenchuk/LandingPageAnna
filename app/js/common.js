@@ -57,16 +57,18 @@ function foo() {
 
 // create Button
 function addButton() {    
-    prevButton.innerText = 'prev';
-    nextButton.innerText = 'next';
+    prevButton.innerHTML = '<i class="fas fa-chevron-left"></i>';
+    nextButton.innerHTML = '<i class="fas fa-chevron-right"></i>';
 
     const styleCss = {
         position: "absolute",
-        top: 0,
+        top: '50%',
+        transform: "translateY(-50%)",
         opacity: 0.5,
         padding: "20px",
         cursor: 'pointer',
-        height: parent.clientHeight + 'px'
+        fontSize: '50px',
+        borderRadius: '20px'
     }
 
     Object.assign(prevButton.style, styleCss);

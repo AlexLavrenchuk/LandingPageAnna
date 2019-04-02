@@ -274,36 +274,49 @@ a {
   .slider-item {
     padding: 30px; }
     .slider-item p {
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 1em #ff5d00;
       position: absolute;
-      top: 75%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-      max-width: 500px;
+      bottom: 15%;
+      left: 35%;
+      -webkit-transform: translate(-50%);
+          -ms-transform: translate(-50%);
+              transform: translate(-50%);
+      max-width: 300px;
       padding: 10px;
       border: 10px solid transparent;
-      -webkit-border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
-      -webkit-border-image: -webkit-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-           -o-border-image: -o-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-              border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
-              border-image: linear-gradient(to top right, purple 10%, crimson 30%, orangered 50%, gold 75%);
+      -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+      -webkit-border-image: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
+           -o-border-image: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
+              border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+              border-image: linear-gradient(left, #ff5d00 0%, #000000 100%);
       border-image-slice: 1;
       background-color: rgba(0, 0, 0, 0.3); }
   .slider-image {
     padding: 20px;
     margin-bottom: 10px;
-    background: rgba(255, 230, 0, 0.3); }
+    background: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+    background: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
+    background: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
+    background: linear-gradient(left, #ff5d00 0%, #000000 100%); }
+    .slider-image:hover img {
+      -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+              transform: scale(1.05);
+      opacity: .8; }
   .slider img {
     max-width: 100%;
-    height: 500px;
+    height: 600px;
     display: inline;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
     border: 10px solid transparent;
-    -webkit-border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
-    -webkit-border-image: -webkit-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-         -o-border-image: -o-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-            border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
-            border-image: linear-gradient(to top right, purple 10%, crimson 30%, orangered 50%, gold 75%);
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+    -webkit-border-image: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
+         -o-border-image: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
+            border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+            border-image: linear-gradient(left, #ff5d00 0%, #000000 100%);
     border-image-slice: 1; }
 
 header {
@@ -324,10 +337,10 @@ header {
 
 h1 {
   display: none;
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
-  background: -webkit-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-  background: -o-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
-  background: linear-gradient(to top right, purple 10%, crimson 30%, orangered 50%, gold 75%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
+  background: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
+  background: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
+  background: linear-gradient(left, #ff5d00 0%, #000000 100%);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
