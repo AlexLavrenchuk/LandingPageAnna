@@ -274,6 +274,13 @@ a {
   .slider-item {
     padding: 30px; }
     .slider-item p {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      max-width: 500px;
       padding: 10px;
       border: 10px solid transparent;
       -webkit-border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
@@ -281,14 +288,15 @@ a {
            -o-border-image: -o-linear-gradient(bottom left, purple 10%, crimson 30%, orangered 50%, gold 75%);
               border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
               border-image: linear-gradient(to top right, purple 10%, crimson 30%, orangered 50%, gold 75%);
-      border-image-slice: 1; }
+      border-image-slice: 1;
+      background-color: rgba(0, 0, 0, 0.3); }
   .slider-image {
     padding: 20px;
     margin-bottom: 10px;
-    background: rgba(0, 0, 0, 0.3); }
+    background: rgba(255, 230, 0, 0.3); }
   .slider img {
     max-width: 100%;
-    height: 200px;
+    height: 500px;
     display: inline;
     border: 10px solid transparent;
     -webkit-border-image: -webkit-gradient(linear, left bottom, right top, color-stop(10%, purple), color-stop(30%, crimson), color-stop(50%, orangered), color-stop(75%, gold));
