@@ -1,12 +1,13 @@
 
 header {
-    background: $colorBg;
+    background: $gradient;
     position: sticky;
     top: 0;
     z-index: 9999;
     text-align: center;
     margin: 0 -40px;
-    padding: 40px 40px 0 40px;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
 }
 .scroll {
     animation: show 1s;
@@ -18,7 +19,7 @@ h1 {
     background: $gradient;
     background-clip: text;
     color: transparent;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 nav{ 
     ul {

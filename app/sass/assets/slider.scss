@@ -1,8 +1,10 @@
 .slider {
     text-align: center;
     margin: 0 -40px;
+
     &-item {
         padding: 30px;
+        
         p {
             color: white;
             text-shadow: 1px 1px 2px black, 0 0 1em #ff5d00;
@@ -19,7 +21,9 @@
     &-image {
         padding: 20px;
         margin-bottom: 10px;
-        background: linear-gradient(left, #ff5d00 0%, #000000 100%);;
+        //background: linear-gradient(left, #ff5d00 0%, #000000 100%);;
+        background: $gradient;
+        border-radius: 5px;
         &:hover {
             img {
                 transform: scale(1.05);
