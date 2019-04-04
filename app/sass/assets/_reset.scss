@@ -18,7 +18,17 @@
         opacity: 1;
     }
 }
+body{
+    background: url('../img/images3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    p{
+        color: #ffca00;
 
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -57,3 +67,4 @@ a {
     margin: auto;
     padding: 0 40px;
 }
+

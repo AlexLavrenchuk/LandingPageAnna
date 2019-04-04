@@ -26,6 +26,16 @@
   100% {
     opacity: 1; } }
 
+body {
+  background: url("../img/images3.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; }
+  body p {
+    color: #ffca00; }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -60,7 +70,7 @@ a {
   color: inherit; }
 
 .wrapper {
-  background: #fff;
+  background: #0000;
   max-width: 1200px;
   margin: auto;
   padding: 0 40px; }
@@ -285,20 +295,22 @@ a {
       max-width: 300px;
       padding: 10px;
       border: 10px solid transparent;
-      -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-      -webkit-border-image: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
-           -o-border-image: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
-              border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-              border-image: linear-gradient(left, #ff5d00 0%, #000000 100%);
+      -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+      -webkit-border-image: -webkit-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+           -o-border-image: -o-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+              border-image: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+              border-image: linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
       border-image-slice: 1;
       background-color: rgba(0, 0, 0, 0.3); }
   .slider-image {
     padding: 20px;
     margin-bottom: 10px;
-    background: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-    background: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
-    background: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
-    background: linear-gradient(left, #ff5d00 0%, #000000 100%); }
+    background: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+    background: -webkit-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+    background: -o-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+    background: linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
     .slider-image:hover img {
       -webkit-transform: scale(1.05);
           -ms-transform: scale(1.05);
@@ -312,22 +324,27 @@ a {
     -o-transition: .5s;
     transition: .5s;
     border: 10px solid transparent;
-    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-    -webkit-border-image: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
-         -o-border-image: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
-            border-image: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-            border-image: linear-gradient(left, #ff5d00 0%, #000000 100%);
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+    -webkit-border-image: -webkit-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+         -o-border-image: -o-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+            border-image: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+            border-image: linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
     border-image-slice: 1; }
 
 header {
-  background: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+  background: -webkit-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+  background: -o-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+  background: linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 9999;
   text-align: center;
   margin: 0 -40px;
-  padding: 40px 40px 0 40px; }
+  padding: 20px 10px 0 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px; }
 
 .scroll {
   -webkit-animation: show 1s;
@@ -337,14 +354,14 @@ header {
 
 h1 {
   display: none;
-  background: -webkit-gradient(linear, left top, right top, from(#ff5d00), to(#000000));
-  background: -webkit-linear-gradient(left, #ff5d00 0%, #000000 100%);
-  background: -o-linear-gradient(left, #ff5d00 0%, #000000 100%);
-  background: linear-gradient(left, #ff5d00 0%, #000000 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff006a82), to(#bd14b5d9));
+  background: -webkit-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+  background: -o-linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
+  background: linear-gradient(left, #ff006a82 0%, #bd14b5d9 100%);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  margin-bottom: 20px; }
+  margin-bottom: 5px; }
 
 nav ul {
   display: -webkit-box;
